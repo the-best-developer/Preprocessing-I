@@ -11,9 +11,106 @@
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="mainContainer">
+    <!-- Navigation -->
+    <header>
+      <nav>
+        <a href="#about">About me</a>
+        <a href="#skills">Skills</a>
+        <a href="#work-history">Work history</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro-container">
+      <div class="intro-item picture">
+        <img src="img/me.jpg"></img>
+      </div>
+
+      <div class="intro-item">
+        <h1>Dylan Gosnell</h1>
+        <p>I'm a passionate web developer that strives to stay ahead of the curve. I enjoy learning about new paradigms and best practices</p>
+      </div>
+    </section>
+
+    <!-- About me -->
+    <span id="about">About me</span>
+    <section class="about-container">
+      <div class="about-item">
+        <p>I enjoy hiking and camping in my free time, learning new things, and discovering new places. I also spend a lot of time researching software security and lower level logic.</p>
+      </div>
+    </section>
+    
+    <!-- Skills -->
+    <span id="skills">Skills</span>
+    <section class="skills-container">
+      <div class="skills-item">
+        <h1>Web development</h1>
+        <ul>
+          <li>Git</li>
+          <li>Responsive Design</li>
+          <li>Media queries</li>
+          <li>Semantic HTML</li>
+          <li>Preprocessed CSS</li>
+        </ul>
+      </div>
+
+      <div class="skills-item">
+          <h1>Programming languages</h1>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>C</li>
+            <li>Python</li>
+          </ul>
+        </div>
+
+      <div class="skills-item">
+          <h1>Operating systems</h1>
+          <ul>
+            <li>Windows</li>
+            <li>Mac OS X</li>
+            <li>Linux</li>
+            <li>FreeBSD</li>
+          </ul>
+        </div>
+    </section>
+
+    <!-- Work history -->
+    <span id="work-history">Work history</span>
+    <section class="history-container">
+      <div class="history-item">
+        <h1>Microsoft</h1>
+        <ul>
+          <li>Developing backend solutions</li>
+          <li>Business consulting</li>
+          <li>Front-end application support</li>
+        </ul>
+      </div>
+      <div class="history-item">
+        <h1>Apple</h1>
+          <ul>
+            <li>Developing iOS applications</li>
+            <li>Software auditing</li>
+            <li>Removing headphone jacks</li>
+          </ul>
+      </div>
+    </section>
+    
+    <!-- Contact -->
+    <span id="contact">Contact</span>
+    <section class="contact-container">
+      You can reach me by: </br>
+      Email: <a href="mailto:im.dylan.gosnell@gmail.com">im.dylan.gosnell@gmail.com</a></br>
+      Phone: 999-101-1234
+    </section>
+
+  </div>
 </body>
 </html>
